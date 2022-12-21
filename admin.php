@@ -21,7 +21,7 @@ if (!isset($_SESSION['nama'])) {
     <title>Berhasil Login</title>
 </head>
 
-<body class="min-h-screen bg-gray-50 dark:bg-gray-800">
+<body class="min-h-screen bg-gray-50 dark:bg-blue-300">
 <?php
     include("navbar.php");
     ?>
