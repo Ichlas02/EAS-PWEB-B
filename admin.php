@@ -78,9 +78,9 @@ if (!isset($_SESSION['nama'])) {
                         echo "<td class='py-4 px-6'>".$data['lokasi']."</td>";
                         echo "<td class='py-4 px-6'>".$data['lolos']."</td>";
 
-                        echo "<td class='py-4 px-6'>";
-                        echo "<a href='setujui.php?id=" . $data['user_id'] . "'>Setujui</a> | ";
-                        echo "<a href='hapus.php?id=" . $data['user_id'] . "'>Hapus</a>";
+                        echo "<td class='py-2 px-4'>";
+                        echo "<a href='setujui.php?id=" . $data['user_id'] . "'>Acc</a> ";
+                        echo "<a href='hapus.php?id=" . $data['user_id'] . "'>Delete</a>";
                         echo "</td>";
 
                         echo "</tr>";

@@ -47,8 +47,7 @@ if (isset($_POST['submit'])) {
 	<nav class="p-3 border-gray-200 bg-gray-50 dark:bg-blue-300 dark:border-gray-700">
         <div class="container flex flex-wrap flex-col md:flex-row items-center justify-evenly mx-auto">
             <a href="#" class="flex items-center">
-                <img src="./assets/image/logo2.png" style="transform:scale(2.5)" class="mr-3 h-10" alt="logo" />
-                <span class="ml-4 self-center text-xl font-semibold whitespace-nowrap dark:text-white"><?php echo "<h1 class='text-gray-900 dark:text-black'>Selamat Datang " . $_SESSION['nama'] . "!" . "</h1>"; ?></span>
+                <img src="./assets/image/logo2.png" style="transform:scale(8.0)" class="mr-3 h-10" alt="logo" />
             </a>
             <div>
     <article class="flex justify-center items-center h-screen bg-gray-50 dark:bg-blue-300">

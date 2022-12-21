@@ -43,16 +43,16 @@ if (!isset($_SESSION['nama'])) {
 
                             if ($data = mysqli_fetch_array($query)) {
                                 echo "<div class='w-1/2 space-y-1'>
-                        <p>Instansi : Kementrian Kelautan dan Perikanan</p>
-                        <p>Lokasi : Jl. Ahmad Yani No.152 B, Gayungan, Kec. Gayungan, Kota SBY, Jawa Timur 60235 </p>
-                        <p>NIK : $data[nik]</p>
-                        <p>Nomor peserta : $data[no_peserta]</p>
-                        <p>Nama : $data[nama]</p>
-                        <p>Jenis Kelamin : $data[kelamin]</p>
-                        <p>Tempat/tanggal lahir :$data[ttl]</p>
-                        <p>Pendidikan : $data[asal]</p>
-                        <p>Formasi jabatan : $data[jabatan]</p>
-                        <p>Lokasi tes :$data[lokasi]</p>
+                        <p>Instansi: Kementrian Kelautan dan Perikanan</p>
+                        <p>Lokasi: Jl. Ahmad Yani No.152 B, Gayungan, Kec. Gayungan, Kota SBY, Jawa Timur 60235 </p>
+                        <p>NIK: $data[nik]</p>
+                        <p>Nomor Peserta: $data[no_peserta]</p>
+                        <p>Nama: $data[nama]</p>
+                        <p>Jenis Kelamin: $data[kelamin]</p>
+                        <p>Tempat/tanggal lahir:$data[ttl]</p>
+                        <p>Pendidikan: $data[asal]</p>
+                        <p>Formasi Jabatan: $data[jabatan]</p>
+                        <p>Lokasi Tes: $data[lokasi]</p>
                     </div>";
                             } else {
                                 echo "
@@ -108,7 +108,7 @@ if (!isset($_SESSION['nama'])) {
                     if ($data['lolos'] == "lolos") {
                         echo "
                             <div class='flex flex-col space-y-2 justify-center items-center'>
-                                <p class='font-bold text-green-500 text-xl animate-pulse'>Anda lolos</p>
+                                <p class='font-bold text-green-500 text-xl animate-pulse'>Silahkan Cetak Kartu Anda</p>
                                 <a id='download'>
                                 <button class='text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'>Cetak</button></a>
                             </div>";
